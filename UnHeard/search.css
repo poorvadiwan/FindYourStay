@@ -1,0 +1,412 @@
+.header{
+    width: 1280px;
+height: 342px;
+
+background: rgba(244, 175, 177, 0.5);
+border: 0.8px solid #D70908;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.logo-nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 1084px;
+height: 54px;
+left: 40px;
+top: 7px;
+}
+
+.logo{
+position: absolute;
+width: 167px;
+height: 54px;
+left: 40px;
+top: 15px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    
+    position: absolute;
+    width: 555px;
+    height: 29px;
+    left: 510px;
+    top: 15px;
+}
+    
+    .home{
+        width: 84px;
+height: 29px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 450;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D70908;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+    .about-us{
+        width: 114px;
+        height: 29px;
+
+        
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #D70908;
+        
+        flex: none;
+        order: 0;
+    }
+
+.help-support{
+        width: 171px;
+height: 29px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 450;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D70908;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.health-support{
+        width: 171px;
+height: 29px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 450;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D70908;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+    .contact-us{
+        width: 114px;
+        height: 29px;
+
+        font-family: 'Cabin';
+font-style: normal;
+font-weight: 450;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D70908;
+flex: none;
+order: 3;
+flex-grow: 0;
+    }
+  
+.meet-our-doctors{
+    width: 599px;
+height: 78px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 78px;
+display: flex;
+align-items: center;
+margin-left: 70px;
+margin-top: 12px;
+
+color: #1F1F1F;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}  
+
+.red-colour{
+    color: #D70908;
+}
+    
+.card {
+    height: 349px;
+    width: 300px;
+    background: rgba(244, 175, 177, 0.5);
+    border: 0.8px solid #D70908;
+    border-radius: 16px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .image{
+    margin-top: 16px;
+  }
+
+  .card-set{
+margin-top: 17px;
+margin-left: 110px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 52px;
+
+width: 1043px;
+height: 349px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.logo-f{
+    position: absolute;
+    width: 167px;
+    height: 54px;
+    left: 80px;
+    top: 900px;
+    bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.home-f{
+    width: 84px;
+    height: 20px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #D70908;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.about-us-f{
+        width: 114px;
+        height: 20px;
+
+        
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #D70908;
+        
+        flex: none;
+        order: 0;   
+}
+
+.help-support-f{
+    width: 171px;
+height: 20px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 450;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D70908;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.health-support-f{
+width: 171px;
+height: 24px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 450;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D70908;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.links{
+    display: block;
+    padding: 0px;
+    gap: 0px;
+    text-align: left;
+    gap: 8px;
+
+    position: absolute;
+    width: 555px;
+    height: 14px;
+    left: 85px;
+    bottom: 0px;
+    top: 930px;
+    padding-top: 20px;
+}
+
+.footer{
+width: 1280px;
+height: 380px;
+margin-top: 65px;
+
+background: rgba(244, 175, 177, 0.5);
+border: 0.8px solid #D70908;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.sitemap{
+    margin-left: 45px;
+}
+
+.horizontal-line{
+position: absolute;
+width: 370px;
+height: 0px;
+left: 470px;
+
+border: 2.8px solid #FFF0F2;
+backdrop-filter: blur(2px);
+transform: rotate(90deg);
+margin-top: 4px;
+}
+
+.contact-us-end{
+width: 599px;
+height: 78px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 78px;
+display: flex;
+align-items: center;
+margin-left: 680px;
+margin-top: 12px;
+
+color: #1F1F1F;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#message{
+display: flex;
+flex-direction: column;
+padding: 25px 15px;
+
+position: absolute;
+width: 450px;
+height: 50px;
+left: 0px;
+top: 100px;
+
+background: #FFF0F2;
+border-radius: 20px;
+margin-left: 690px;
+margin-top: 870px;
+}
+
+#text-email{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 2px;
+margin-left: 690px;
+margin-top: 100px;
+}
+
+#email{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0px 15px;
+
+width: 440px;
+height: 40px;
+
+background: #FFF0F2;
+border-radius: 8px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: 690px;
+margin-top: 8px;
+}
+
+.send-btn{
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    left: 700px;
+    top: 1180px;
+    background: #FFF0F2;
+    border-radius: 10px;
+}
