@@ -132,8 +132,8 @@
 }
 .write-down-your1 {
   position: absolute;
-  top: 12px;
-  left: 16px;
+  top: 0px;
+  left: 0px;
   display: inline-block;
   width: 426px;
   height: 46px;
@@ -154,6 +154,51 @@
   width: 397px;
   height: 46px;
 }
+
+.input-text-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-beige-100);
+  width: 488px;
+  height: 117px;
+}
+
+.input-text-area::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+input[type=textarea]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+}
+
+.input-name{
+  top: 0;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige-100);
+  width: 1000px;
+  height: 40px;
+}
+
+.input-name::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+.input-name[type=text]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+  border: none;
+}
+
 .xyz1 {
   top: 9px;
   left: 99px;
@@ -194,6 +239,29 @@
   width: 358px;
   height: 28px;
 }
+
+.input-email{
+  top: 0;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige-100);
+  width: 1000px;
+  height: 40px;
+}
+
+.input-email::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+.input-email[type=text]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+  border: none;
+}
+
 .email3 {
   left: 0;
   font-size: var(--font-size-6xl);
@@ -233,7 +301,7 @@
   font-size: var(--font-size-xl);
 }
 .footer1 {
-  top: 1547px;
+  top: 1150px;
   left: 0;
   width: 1280px;
   height: 489px;
@@ -280,7 +348,7 @@
   font-weight: 600;
   display: flex;
   align-items: center;
-  width: 316px;
+  width: 400px;
   height: 30px;
 }
 .download-1-icon {
@@ -327,7 +395,9 @@
 }
 .search-result-1,
 .search-result-2,
-.search-result-3 {
+.search-result-3,
+.search-result-4,
+.search-result-5 {
   position: absolute;
   top: 86px;
   left: 59px;
@@ -345,7 +415,7 @@
 .most-relevant,
 .top-results-child {
   position: absolute;
-  top: 740px;
+  top: 386px;
   left: 174px;
   width: 943px;
   height: 691px;
@@ -396,7 +466,7 @@
   width: 844px;
   height: 55px;
 }
-.durg {
+/* .durg {
   position: absolute;
   top: 13px;
   left: 67px;
@@ -405,15 +475,42 @@
   align-items: center;
   width: 189px;
   height: 29px;
+} */
+
+.input-field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-goldenrod);
+  width: 802px;
+  height: 49px;
+  border: none;
 }
+
+::placeholder{
+  color: #192F32;
+  font-size: 1.2rem;
+  font-weight: .5rem;
+  padding: 3px 0px;
+}
+
+input[type=text]{
+  color: #192F32;
+  font-size: 1.2rem;
+  font-weight: .5rem;
+  padding: 3px 20px;
+}
+
 .search-2-icon {
   position: absolute;
   top: 8px;
-  left: 10px;
+  left: 790px;
   width: 39px;
   height: 38px;
   object-fit: cover;
 }
+
 .button-inner,
 .search-bar2 {
   position: absolute;
@@ -464,7 +561,7 @@
   width: 1280px;
   height: 69px;
 }
-.home3 {
+.feature3 {
   position: relative;
   display: flex;
   align-items: center;
@@ -533,6 +630,7 @@
   position: absolute;
 }
 .logo3 {
+  cursor: pointer;
   height: 73.91%;
   width: 16.88%;
   top: 13.04%;
@@ -556,10 +654,71 @@
   position: relative;
   background-color: var(--color-beige-100);
   width: 100%;
-  height: 2036px;
+  height: 1639px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-6xl);
   color: var(--color-darkslategray-100);
   font-family: var(--font-cabin);
+}
+
+
+/* drop down */
+
+.dropbtn {
+  color: #192F32;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 2rem;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--color-goldenrod);
+  cursor: pointer;
+  width: 194px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: var(--color-goldenrod);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  border-radius: 15px;
+  position: absolute;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  font-size: 16px;
+  display: none;
+  position: center;
+  background-color: #ffe6b1;
+  min-width: 150px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #192F32;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f4bf4b;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* Search Click Button */
+.search-click{
+  cursor: pointer;
+}
+
+.search-click:hower, .search-click:focus{
+  background-color: #f4bf4b;
 }

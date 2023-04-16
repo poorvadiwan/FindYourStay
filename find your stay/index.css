@@ -186,7 +186,8 @@
   color: var(--color-beige-100);
   font-family: var(--font-berlin-sans-fb);
 }
-.textbox-child {
+.textbox-child,
+.input-text-area {
   position: absolute;
   top: 0;
   left: 0;
@@ -197,12 +198,25 @@
 }
 .write-down-your {
   position: absolute;
-  top: 12px;
-  left: 16px;
+  top: 0px;
+  left: 0px;
   display: inline-block;
   width: 426px;
   height: 46px;
 }
+
+.input-text-area::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+input[type=textarea]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+}
+
 .name-child,
 .textbox {
   position: absolute;
@@ -219,6 +233,7 @@
   width: 397px;
   height: 46px;
 }
+
 .xyz {
   top: 9px;
   left: 99px;
@@ -227,6 +242,29 @@
   width: 358px;
   height: 28px;
 }
+
+.input-name{
+  top: 0;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige-100);
+  width: 1000px;
+  height: 40px;
+}
+
+.input-name::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+.input-name[type=text]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+  border: none;
+}
+
 .name,
 .name1,
 .xyz {
@@ -267,6 +305,29 @@
   width: 79px;
   height: 30px;
 }
+
+.input-email{
+  top: 0;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige-100);
+  width: 1000px;
+  height: 40px;
+}
+
+.input-email::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+.input-email[type=text]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+  border: none;
+}
+
 .contact-us,
 .email {
   position: absolute;
@@ -556,19 +617,36 @@
   height: 55px;
   cursor: pointer;
 }
-.search-bar-child {
+.search-bar-child,
+.input-field {
   position: absolute;
   top: 0;
   left: 0;
   border-radius: var(--br-31xl);
   background-color: var(--color-goldenrod);
   width: 734px;
-  height: 54.67px;
+  height: 54px;
+  border: none;
 }
+
+::placeholder{
+  color: #192F32;
+  font-size: 1.2rem;
+  font-weight: .5rem;
+  padding: 2px 0px;
+}
+
+input[type=text]{
+  color: #192F32;
+  font-size: 1.2rem;
+  font-weight: .5rem;
+  padding: 2px 20px;
+}
+
 .search-1-icon {
   position: absolute;
   top: 13.46px;
-  left: 692.26px;
+  left: 720px;
   width: 33.92px;
   height: 31.96px;
   object-fit: cover;

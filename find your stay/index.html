@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./css-files/global.css" />
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
@@ -70,22 +70,22 @@
           <div class="home-parent">
             <div class="home" id="homeText">Home</div>
             <div class="about-us" id="aboutUsText1">About Us</div>
-            <div class="features" id="featuresText1">Features</div>
+            <div class="features" id="featuresText1">Featured</div>
           </div>
         </div>
         <div class="contact" data-scroll-to="contactContainer">
           <div class="textbox">
             <div class="textbox-child"></div>
-            <div class="write-down-your">write down your queries here...</div>
+            <div class="write-down-your"><input class="input-text-area" type="textarea" placeholder="write down your queries here..."></div>
           </div>
           <div class="name">
             <div class="name-child"></div>
-            <div class="xyz">xyz</div>
+            <div class="xyz"><input class="input-name" type="text" placeholder="xyz"></div>
             <div class="name1">Name:</div>
           </div>
           <div class="email">
             <div class="name-child"></div>
-            <div class="xyzgmailcom">xyz@gmail.com</div>
+            <div class="xyzgmailcom"><input class="input-email" type="text" placeholder="xyz@gmail.com"></div>
             <div class="email1">Email:</div>
           </div>
           <div class="contact-us">Contact Us</div>
@@ -150,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div class="features1" data-scroll-to="featuresText">Features</div>
+      <div class="features1" id="featurelink" data-scroll-to="featuresText">Featured</div>
       <img class="hiking-svg-icon" alt="" src="./public/hikingsvg.svg" />
       <div class="button" id="buttonContainer">
         <div class="button-child"></div>
@@ -174,7 +174,8 @@
           <div class="search">Search</div>
         </div>
         <div class="search-bar1">
-          <div class="search-bar-child" data-scroll-to="rectangle"></div>
+          
+          <div class="search-bar-child" ><input class="input-field" type="text" placeholder="Enter location here"></div>
           <img class="search-1-icon" alt="" src="./public/search-1@2x.png" />
         </div>
       </div>
@@ -202,7 +203,7 @@
           <img class="nav-components-child" alt="" src="./public/line-2.svg" />
           <div class="about-us2" id="aboutUsText2">About Us</div>
           <img class="nav-components-child" alt="" src="./public/line-3.svg" />
-          <div class="features2" id="featuresText2">Features</div>
+          <div class="features2" id="featuresText2">Featured</div>
           <div class="nav-components-inner"></div>
           <div class="contact-us1" id="contactUsText1">Contact Us</div>
         </div>
@@ -223,7 +224,7 @@
       var aboutUsText1 = document.getElementById("aboutUsText1");
       if (aboutUsText1) {
         aboutUsText1.addEventListener("click", function (e) {
-          window.location.href = "./about-us.html";
+          window.location.href = "./html-files/about-us.html";
         });
       }
       
@@ -242,35 +243,35 @@
       var place1 = document.getElementById("place1");
       if (place1) {
         place1.addEventListener("click", function (e) {
-          window.location.href = "./hotel.html";
+          window.location.href = "./html-files/search.html";
         });
       }
       
       var place2 = document.getElementById("place2");
       if (place2) {
         place2.addEventListener("click", function (e) {
-          window.location.href = "./hotel.html";
+          window.location.href = "./html-files/search.html";
         });
       }
       
       var place3 = document.getElementById("place3");
       if (place3) {
         place3.addEventListener("click", function (e) {
-          window.location.href = "./hotel.html";
+          window.location.href = "./html-files/search.html";
         });
       }
       
       var buttonContainer = document.getElementById("buttonContainer");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
-          window.location.href = "./about-us.html";
+          window.location.href = "./html-files/about-us.html";
         });
       }
       
       var buttonContainer1 = document.getElementById("buttonContainer1");
       if (buttonContainer1) {
         buttonContainer1.addEventListener("click", function (e) {
-          window.location.href = "./search.html";
+          window.location.href = "./html-files/search.html";
         });
       }
       
