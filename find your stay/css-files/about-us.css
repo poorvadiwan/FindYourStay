@@ -78,7 +78,6 @@
 }
 .features5,
 .home6 {
-  cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
@@ -124,8 +123,8 @@
 }
 .write-down-your3 {
   position: absolute;
-  top: 12px;
-  left: 16px;
+  top: 0px;
+  left: 0px;
   display: inline-block;
   width: 426px;
   height: 46px;
@@ -146,6 +145,73 @@
   width: 397px;
   height: 46px;
 }
+
+.input-text-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-beige-100);
+  width: 488px;
+  height: 117px;
+}
+
+.input-text-area::placeholder{
+  padding: 0px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+input[type=textarea]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+}
+
+.input-name{
+  top: 0;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige-100);
+  width: 1000px;
+  height: 40px;
+}
+
+.input-name::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+.input-name[type=text]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.input-email{
+  top: 0;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige-100);
+  width: 1000px;
+  height: 40px;
+}
+
+.input-email::placeholder{
+  padding: 2px 0px;
+  font-size: 1.2rem;
+  color: #192F32;
+}
+
+.input-email[type=text]{
+  padding: 2px 20px;
+  color: #192F32;
+  font-size: 1.2rem;
+  border: none;
+}
+
 .xyz3 {
   top: 9px;
   left: 99px;
@@ -317,7 +383,6 @@
   height: 51px;
 }
 .logo7 {
-  cursor: pointer;
   position: absolute;
   height: 73.91%;
   width: 16.88%;
