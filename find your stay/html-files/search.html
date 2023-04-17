@@ -194,7 +194,7 @@
           </div>
         </div>
       </div>
-      <div class="nav1">
+      <!-- <div class="nav1">
         <div class="nav-item"></div>
         <div class="nav-components1">
           <div class="feature3" id="featureclick">Featured</div>
@@ -222,6 +222,14 @@
             >
           </div>
         </div>
+      </div> -->
+      <div class="nav">
+        <div class="nav-child"></div>
+        <div class="nav-components">
+          <div class="features2" id="featuresText2">Featured</div>
+          <img class="nav-components-child" alt="" src="./public/line-3.svg" />
+          <div class="contact-us1" id="contactUsText1">Contact Us</div>
+        </div>
       </div>
     </div>
 
@@ -247,31 +255,10 @@
         });
       }
       
-      var featuresText = document.getElementById("featuresText");
+      var featuresText = document.getElementById("featuresText2");
       if (featuresText) {
         featuresText.addEventListener("click", function (e) {
-          window.location.href = "../index.html";
-        });
-      }
-      
-      var searchResult3 = document.getElementById("searchResult3");
-      if (searchResult3) {
-        searchResult3.addEventListener("click", function (e) {
-          window.location.href = "/";
-        });
-      }
-      
-      var searchResult2 = document.getElementById("searchResult2");
-      if (searchResult2) {
-        searchResult2.addEventListener("click", function (e) {
-          window.location.href = "/";
-        });
-      }
-      
-      var searchResult1 = document.getElementById("searchResult1");
-      if (searchResult1) {
-        searchResult1.addEventListener("click", function (e) {
-          window.location.href = "/";
+          window.location.href = "../index.html#featurelink";
         });
       }
       

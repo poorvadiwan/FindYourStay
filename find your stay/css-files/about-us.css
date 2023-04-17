@@ -9,7 +9,7 @@
 .copyrightinc3 {
   position: absolute;
   top: 7px;
-  left: 454px;
+  left: 38%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@
 .footer-child2 {
   position: absolute;
   left: 0;
-  width: 1280px;
+  width: 100%;
 }
 .copyright3 {
   top: 451px;
@@ -35,7 +35,7 @@
 .footer-child3 {
   position: absolute;
   top: 24px;
-  left: 641px;
+  left: 50%;
   width: 2.5px;
   height: 399px;
 }
@@ -105,7 +105,7 @@
 .sitemap3 {
   position: absolute;
   top: 40px;
-  left: 705px;
+  left: 60%;
   width: 445.53px;
   height: 221px;
   font-size: var(--font-size-21xl);
@@ -284,7 +284,7 @@ input[type=textarea]{
 .contact3 {
   position: absolute;
   top: 25px;
-  left: 27px;
+  left: 4%;
   width: 521px;
   height: 352px;
   font-size: var(--font-size-xl);
@@ -293,7 +293,7 @@ input[type=textarea]{
   position: absolute;
   top: 1103px;
   left: 0;
-  width: 1280px;
+  width: 100%;
   height: 489px;
   text-align: left;
   font-family: var(--font-brawler);
@@ -305,7 +305,7 @@ input[type=textarea]{
   top: 4.33%;
   right: 4.36%;
   bottom: 55.46%;
-  left: 47.97%;
+  left: 50%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -376,7 +376,7 @@ input[type=textarea]{
 .findyourstay7 {
   position: absolute;
   top: 0;
-  left: 34px;
+  left: 0px;
   display: flex;
   align-items: flex-end;
   width: 182px;
@@ -387,7 +387,6 @@ input[type=textarea]{
   height: 73.91%;
   width: 16.88%;
   top: 13.04%;
-  right: 82.03%;
   bottom: 13.04%;
   left: 1.09%;
   text-align: left;
@@ -395,14 +394,16 @@ input[type=textarea]{
   color: var(--color-beige-100);
   font-family: var(--font-berlin-sans-fb);
 }
-.about-child,
-.nav3 {
+.about-child {
   position: absolute;
   top: 0;
   left: 0;
 }
 .nav3 {
-  width: 1280px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 69px;
   font-size: var(--font-size-6xl);
   color: var(--color-white);
@@ -420,12 +421,15 @@ input[type=textarea]{
   margin: 0;
 }
 .adress-txt {
-  line-break: anywhere;
+  padding-top: -12px;
+  left: 5px;
   width: 100%;
+  font-size: 22px;
+  text-align: center;
 }
 .adress5 {
   position: absolute;
-  top: 152px;
+  top: 140px;
   left: 82px;
   display: flex;
   align-items: flex-end;
@@ -456,7 +460,7 @@ input[type=textarea]{
 .about {
   position: absolute;
   top: 185px;
-  left: 169px;
+  left: 20%;
   width: 943px;
   height: 802px;
   font-size: var(--font-size-5xl);
@@ -472,4 +476,119 @@ input[type=textarea]{
   font-size: var(--font-size-lgi);
   color: var(--color-black);
   font-family: var(--font-cabin);
+}
+
+
+.nav-components-inner {
+  flex: 1;
+  position: relative;
+  border-right: 1.5px solid var(--color-white);
+  box-sizing: border-box;
+  height: 50.96px;
+}
+
+.nav-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-100);
+  width: 100%;
+  height: 50px;
+}
+
+.nav-components-child {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 36px;
+} 
+
+.nav-components {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  position: absolute;
+  top: 8px;
+  width: 577.09px;
+  left: 75%;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+}
+.nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  color: var(--color-white);
+  font-family: var(--font-cabin);
+}
+.contact-us1{
+  display: flex;
+  align-items: center;
+  left: -300px;
+}
+.contact-us1 {
+  position: relative;
+  justify-content: center;
+  width: 132px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.features2 {
+  font-size: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 111px;
+  flex-shrink: 0;
+  cursor: pointer;
+  width: 93px;
+}
+
+.logo2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 445.53px;
+  height: 70px;
+}
+.f2 {
+  font-size: var(--font-size-31xl);
+}
+.our2 {
+  font-size: var(--font-size-21xl);
+}
+.stay2 {
+  color: var(--color-orange);
+}
+.findyourstay-txt2 {
+  line-break: anywhere;
+  width: 100%;
+}
+.findyourstay2 {
+  position: absolute;
+  top: 5.64px;
+  left: 66.55px;
+  display: flex;
+  align-items: flex-end;
+  width: 378.99px;
+  height: 64.36px;
+}
+.freepik-house-inject-104-icon2 {
+  position: absolute;
+  height: 86.46%;
+  width: 15.07%;
+  top: 0;
+  right: 85.04%;
+  bottom: 13.54%;
+  left: -0.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }

@@ -9,7 +9,7 @@
 .copyrightinc1 {
   position: absolute;
   top: 7px;
-  left: 454px;
+  left: 38%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@
 .footer-inner {
   position: absolute;
   left: 0;
-  width: 1280px;
+  width: 100%;
 }
 .copyright1 {
   top: 451px;
@@ -35,7 +35,7 @@
 .line-icon {
   position: absolute;
   top: 24px;
-  left: 641px;
+  left: 50%;
   width: 2.5px;
   height: 399px;
 }
@@ -114,7 +114,7 @@
 .sitemap1 {
   position: absolute;
   top: 40px;
-  left: 705px;
+  left: 65%;
   width: 445.53px;
   height: 221px;
   font-size: var(--font-size-21xl);
@@ -291,19 +291,21 @@ input[type=textarea]{
   width: 333px;
   height: 98px;
 }
-.contact1,
-.footer1 {
+.contact1{
   position: absolute;
   top: 25px;
   left: 27px;
-  width: 521px;
   height: 352px;
   font-size: var(--font-size-xl);
 }
 .footer1 {
+  position: absolute;
+  top: 25px;
+  left: 27px;
+  height: 352px;
   top: 1150px;
   left: 0;
-  width: 1280px;
+  width: 1500px;
   height: 489px;
   font-size: var(--font-size-lgi);
   color: var(--color-black);
@@ -316,7 +318,7 @@ input[type=textarea]{
   top: 4.57%;
   right: 5.59%;
   bottom: 62.31%;
-  left: 44.14%;
+  left: 50%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -412,7 +414,13 @@ input[type=textarea]{
 .search-result-1 {
   top: 282px;
 }
-.most-relevant,
+.most-relevant{
+  position: absolute;
+  top: 386px;
+  left: 18%;
+  width: 943px;
+  height: 691px;
+}
 .top-results-child {
   position: absolute;
   top: 386px;
@@ -548,19 +556,19 @@ input[type=text]{
 .search2 {
   position: absolute;
   top: 185px;
-  left: 224px;
+  left: 22%;
   width: 844px;
   height: 133px;
   font-size: 23.5px;
 }
-.nav-item {
+/* .nav-item {
   position: absolute;
   top: 0;
   left: 0;
   background-color: var(--color-darkslategray-100);
   width: 1280px;
   height: 69px;
-}
+} */
 .feature3 {
   position: relative;
   display: flex;
@@ -570,7 +578,7 @@ input[type=text]{
   flex-shrink: 0;
   cursor: pointer;
 }
-.nav-components-child1 {
+/* .nav-components-child1 {
   flex: 1;
   position: relative;
   max-width: 100%;
@@ -581,7 +589,7 @@ input[type=text]{
 .nav-components1 {
   display: flex;
   align-items: center;
-}
+} */
 .contact-us3 {
   position: relative;
   justify-content: center;
@@ -589,7 +597,7 @@ input[type=text]{
   flex-shrink: 0;
   cursor: pointer;
 }
-.nav-components1 {
+/* .nav-components1 {
   position: absolute;
   top: 10px;
   left: 926px;
@@ -597,7 +605,7 @@ input[type=text]{
   flex-direction: row;
   justify-content: flex-end;
   gap: var(--gap-5xs);
-}
+} */
 .freepik-house-inject-104-icon3 {
   position: absolute;
   height: 73.76%;
@@ -642,14 +650,14 @@ input[type=text]{
   color: var(--color-beige-100);
   font-family: var(--font-berlin-sans-fb);
 }
-.nav1 {
+/* .nav1 {
   top: 0;
   left: 0;
   width: 1280px;
   height: 69px;
   text-align: center;
   color: var(--color-white);
-}
+} */
 .search1 {
   position: relative;
   background-color: var(--color-beige-100);
@@ -721,4 +729,133 @@ input[type=text]{
 
 .search-click:hower, .search-click:focus{
   background-color: #f4bf4b;
+}
+
+
+.nav-components-inner {
+  flex: 1;
+  position: relative;
+  border-right: 1.5px solid var(--color-white);
+  box-sizing: border-box;
+  height: 50.96px;
+}
+
+.nav-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-100);
+  width: 100%;
+  height: 50px;
+}
+
+.nav-components-child {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 36px;
+} 
+
+.nav-components {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  position: absolute;
+  top: 8px;
+  width: 577.09px;
+  left: 75%;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+}
+.nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  color: var(--color-white);
+  font-family: var(--font-cabin);
+}
+.contact-us1{
+  display: flex;
+  align-items: center;
+  left: -300px;
+}
+.contact-us1 {
+  position: relative;
+  justify-content: center;
+  width: 132px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.features2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 111px;
+  flex-shrink: 0;
+  cursor: pointer;
+  width: 93px;
+}
+
+
+.logo7 {
+  position: absolute;
+  height: 73.91%;
+  width: 16.88%;
+  top: 13.04%;
+  bottom: 13.04%;
+  left: 1.09%;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-beige-100);
+  font-family: var(--font-berlin-sans-fb);
+}
+
+.freepik-house-inject-104-icon7 {
+  position: absolute;
+  height: 73.76%;
+  width: 14.47%;
+  top: 15.69%;
+  right: 85.76%;
+  bottom: 10.55%;
+  left: -0.23%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.findyourstay7 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  display: flex;
+  align-items: flex-end;
+  width: 182px;
+  height: 51px;
+}
+
+.adress-txt {
+  padding-top: -12px;
+  left: 5px;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+}
+
+.f7 {
+  font-size: var(--font-size-13xl);
+}
+
+.our7 {
+  font-size: var(--font-size-8xl);
+}
+
+.stay6 {
+  color: var(--color-orange);
 }
